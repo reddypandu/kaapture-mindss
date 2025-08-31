@@ -2401,7 +2401,7 @@ ul {
 
 .main-slider-two .swiper-slide {
   position: relative;
-  background-color: var(--ambed-black, #3c3531);
+  background-color: rgba(0, 0, 0, 0.1);
 }
 
 .main-slider-two .container {
