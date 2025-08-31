@@ -2510,6 +2510,11 @@ ul {
 .main-slider-two__btn-box .thm-btn{
   border-radius: 100px;
 }
+@media(max-width:1200px){
+  .main-menu-two__right{
+padding:25px;
+  }
+}
 .main-slider-two__btn-box .thm-btn:first-child{
   background-color: var(--secondary);
   color:#fff;
