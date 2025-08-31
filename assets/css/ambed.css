@@ -2507,6 +2507,9 @@ ul {
   -webkit-transform: translateY(0) translateX(0);
   transform: translateY(0) translateX(0);
 }
+.main-slider-two__btn-box .thm-btn{
+  border-radius: 100px;
+}
 .main-slider-two__btn-box .thm-btn:first-child{
   background-color: var(--secondary);
   color:#fff;
@@ -2522,6 +2525,12 @@ ul {
 }
 .main-slider-two__btn-box .thm-btn:last-child:after{
   display:none;
+}
+@media(max-width:992px){
+  .main-slider-two__btn-box .thm-btn{
+    padding:15px 15px;
+
+  }
 }
 /*--------------------------------------------------------------
 # Main Slider Three
