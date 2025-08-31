@@ -3266,7 +3266,7 @@ ul {
   display: block;
   padding: 100px 0 100px 0;
   /* margin-top: -156px; */
-    background-color: lightgray;
+    background:linear-gradient(180deg,#f2eeeb  0%, var(--secondary) 100%);
 }
 
 .services-one-bg-box {
@@ -4601,7 +4601,7 @@ ul {
 .blog-one {
   position: relative;
   display: block;
-  padding: 120px 0 90px;
+  padding: 50px 0 20px;
 }
 
 .blog-one--carousel {
@@ -4707,7 +4707,7 @@ ul {
   position: relative;
   display: block;
   background-color: var(--ambed-primary, #f2eeeb);
-  padding: 32px 40px 29px;
+  padding: 15px 20px 15px;
   -webkit-transition: all 500ms ease;
   transition: all 500ms ease;
 }
@@ -4764,9 +4764,9 @@ ul {
 }
 
 .blog-one__title {
-  font-size: 22px;
+  font-size: 15px;
   font-weight: 700;
-  line-height: 36px;
+  line-height: 15px;
 }
 
 .blog-one__title a {
