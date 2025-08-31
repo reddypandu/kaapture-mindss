@@ -548,7 +548,7 @@
         <!--Blog One End-->
 
 
-        <section class="project-details">
+        <section class="project-details team">
             <div class="container">
                 <div class="section-title text-center">
                                               <h2 class="section-title__title">Careers</h2>
@@ -565,10 +565,10 @@
                                 <h2 class="section-title__title">Join Kaapture Minds – Innovate. Collaborate. Grow.</h2>
                             </div>
                             <p>At Kaapture Minds, Oracle isn’t just what we do — it’s part of who we are.</p>
-                            <p>Our team brings more than just technical expertise. We are proud to have accountants,
+                            <p class="d-none d-lg-block">Our team brings more than just technical expertise. We are proud to have accountants,
                                 business process consultants, supply chain specialists, HR practitioners, and CX experts
                                 working alongside our Oracle professionals.</p>
-                            <p class="pb-3">This powerful blend of business, functional, and technical knowledge has
+                            <p class="pb-3 d-none d-lg-block">This powerful blend of business, functional, and technical knowledge has
                                 enabled us to deliver 100+ successful implementations across Oracle On-Premise and Cloud
                                 applications. Through our dedicated Managed Services, we continue to help clients
                                 maximize the value of their Oracle investments every day.</p>
@@ -578,7 +578,18 @@
                 </div>
             </div>
         </section>
-
+<style>
+    @media(max-width:992px){
+        .team .section-title{
+            margin-bottom: 20px;
+        }
+ .team .section-title__title{
+font-size:20px;
+line-height: 20px;
+    }
+    }
+   
+</style>
 
  <!--Contact Page Start-->
         <section class="contact-page">
