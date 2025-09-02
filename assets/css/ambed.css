@@ -13019,3 +13019,41 @@ body.boxed-wrapper {
   font-weight: 400;
   padding-left: 33px;
 }
+.core-values .value-card {
+  background: #f9f9f9;
+  padding: 20px;
+  border-radius: 12px;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.core-values h4 {
+  color: #d4af37;
+}
+
+
+.core-values .value-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 25px rgba(0,0,0,0.15);
+}
+.core-values .value-icon img {
+  width: 70px;
+  height: 70px;
+}
+.core-values .value-content h4 {
+  margin-bottom: 10px;
+  font-weight: 600;
+}
+.core-values .value-content p {
+  margin: 0;
+  line-height: 1.6;
+}
+@media(max-width:767px){
+  .core-values .value-card {
+    flex-direction: row;
+  }
+  .core-values .value-content {
+    margin-left: 15px;
+  }
+}
+
+
