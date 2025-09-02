@@ -9221,7 +9221,7 @@ padding:0px;
 .service-details {
   position: relative;
   display: block;
-  padding: 120px 0 120px;
+  /* padding: 120px 0 120px; */
 }
 
 .service-details__left {
