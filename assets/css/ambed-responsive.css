@@ -1591,7 +1591,11 @@
 --------------------------------------------------------------*/
 @media only screen and (min-width: 992px) and (max-width: 1199px) {}
 
-
+@media(max-width:992px){
+    .fa-angle-down{
+        display: none;
+    }
+}
 
 
 
@@ -1779,7 +1783,7 @@ padding-top:15px;
     }
 
     .main-menu-three__btn-box {
-        margin-left: 0;
+        /* margin-left: 0; */
     }
 
 
@@ -1982,7 +1986,7 @@ padding-top:15px;
     }
 
     .main-menu-two__right {
-        display: none;
+        /* display: none; */
     }
 
     .main-menu-two__left {

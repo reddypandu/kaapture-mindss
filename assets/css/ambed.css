@@ -1541,8 +1541,8 @@ ul {
 
 .main-menu-two__main-menu-two-inner {
   display: block;
-  float: left;
-  margin-left: 75px;
+  float: right;
+  /* margin-left: 75px; */
 }
 
 .main-menu-two__right {
@@ -2512,7 +2512,7 @@ ul {
 }
 @media(max-width:1200px){
   .main-menu-two__right{
-padding:25px;
+padding:0px;
   }
 }
 .main-slider-two__btn-box .thm-btn:first-child{
