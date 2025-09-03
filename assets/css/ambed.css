@@ -13089,7 +13089,8 @@ body.boxed-wrapper {
     height: 20px;
     display: inline-block;
     border-radius: 100%;
-    background: #000;
+    background: unset;
+    border: 2px solid #b7874d;
     opacity: 1;
 }
 .swiper-pagination-bullet-active{
@@ -13097,5 +13098,5 @@ body.boxed-wrapper {
 ;
 }
 .swiper-container-horizontal>.swiper-pagination-bullets, .swiper-pagination-custom, .swiper-pagination-fraction{
-  bottom:-7px;
+  bottom:20px;
 }
