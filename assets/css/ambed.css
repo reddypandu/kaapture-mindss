@@ -13084,3 +13084,18 @@ body.boxed-wrapper {
 }
 
 
+.swiper-pagination-bullet{
+  width: 20px;
+    height: 20px;
+    display: inline-block;
+    border-radius: 100%;
+    background: #000;
+    opacity: 1;
+}
+.swiper-pagination-bullet-active{
+  background-color: #b7874d
+;
+}
+.swiper-container-horizontal>.swiper-pagination-bullets, .swiper-pagination-custom, .swiper-pagination-fraction{
+  bottom:-7px;
+}
