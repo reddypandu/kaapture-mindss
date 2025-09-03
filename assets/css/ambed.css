@@ -1079,7 +1079,7 @@ ul {
 }
 
 .main-menu .mobile-nav__toggler:hover {
-  color: var(--ambed-black, #3c3531);
+   color: var(--ambed-base, #a47c68);
 }
 
 @media (min-width: 1200px) {
