@@ -1023,7 +1023,7 @@ ul {
 
 @media (max-width: 1199px) {
   .stricky-header {
-    display: none !important;
+    /* display: none !important; */
   }
 }
 
