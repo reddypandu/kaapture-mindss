@@ -176,29 +176,36 @@
 
 
         <!-- About Page Start -->
-        <section class="about-page">
+        <section class="about-page py-4">
             <div class="container">
                 <div class="row">
-                    <div class="col-xl-12">
-                        <div class="about-page__inner">
-                            <div class="about-page__image">
-                                <img src="assets/images/resources/oracle-hcm.png" alt="">
-                            </div>
-                            <div class="about-page__content">
+                     <div class="about-page__content col-xl-6">
                                 <h2>Oracle HCM</h2>
                                 <p>
                                     Oracle HCM is a comprehensive, cloud-based solution that provides a single, unified platform for managing all aspects of the HR lifecycle, from recruitment to retirement. It is designed to help organizations streamline and optimize their HR processes, improve efficiency, increase productivity, and make better-informed decisions.
                                 </p>
+                                <ul class="list-unstyled custom-list">
+                                    <li><i class="fa fa-check"></i> Streamline global HR processes and improve user experience</li>
+                                    <li><i class="fa fa-check"></i> Make better-informed decisions with real-time analytics and reporting</li>
+                                    <li><i class="fa fa-check"></i> Improve employee engagement and retention</li>
+                                    <li><i class="fa fa-check"></i> Reduce costs and improve operational efficiency</li>
+                                </ul>
                             </div>
+                        <div class="about-page__inner col-xl-6">
+                            <div class="about-page__image">
+                                <img src="assets/images/services/hcm.png" alt="">
+                            </div>
+                           
                         </div>
-                    </div>
+                        
+                  
                 </div>
             </div>
         </section>
         <!-- About Page End -->
 
         <!-- Features Page Start -->
-        <section class="features-page">
+        <section class="features-page py-4">
             <div class="container">
                 <div class="row">
                     <div class="col-xl-12">
@@ -270,7 +277,7 @@
         </section>
         <!-- Features Page End -->
         <!--Why Choose Us Start-->
-        <section class="why-choose-us">
+        <section class="why-choose-us py-4">
             <div class="container">
                 <div class="row">
                     <div class="col-xl-12">
@@ -320,10 +327,10 @@
         </section>
         <!--Why Choose Us End-->
         <!--Call To Action Start-->
-        <section class="call-to-action">
+        <section class="call-to-action py-4">
             <div class="container">
                 <div class="row">
-                    <div class="col-xl-12">
+                    <div class="col-xl-12 text-center">
                         <div class="call-to-action__inner">
                             <h2>Get in touch with us</h2>
                             <p>
@@ -338,7 +345,26 @@
         <!--Call To Action End-->
 
 
+<style>
+   .why-choose-us__list li, .features-page__list li {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow:inset 0 0 10px rgba(0,0,0,0.1),inset 0 0 20px rgba(0,0,0,0.1),inset 0 0 30px rgba(0,0,0,0.1),0 0 40px rgba(0,0,0,0.1);
+    transition: all 0.3s ease-in-out;
+    margin-block: 1rem;
+} 
 
+.list-unstyled.custom-list{
+    margin-top: 20px;
+    padding-left: 0;
+}
+.list-unstyled.custom-list li {
+    position: relative;
+    padding-left: 25px;
+    margin-bottom: 20px;
+}
+</style>
 
 
 
