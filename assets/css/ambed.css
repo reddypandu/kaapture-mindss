@@ -5220,7 +5220,7 @@ padding:0px;
 
 .footer-widget__contact-list li .text p {
   font-size: 16px;
-  font-weight: 500;
+  /* font-weight: 500; */
   color: var(--ambed-white, #ffffff);
   padding-top: 4px;
 }
