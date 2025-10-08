@@ -5180,18 +5180,11 @@ padding:0px;
   height: 40px;
   width: 40px;
   background-color: #2f2a27;
-  border-radius: 50%;
-  display: -webkit-box;
-  display: -ms-flexbox;
+  border-radius: 20%;
   display: flex;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
   justify-content: center;
-  -webkit-transition: all 500ms ease;
-  transition: all 500ms ease;
+  align-items: center;
+  transition: all 0.5s ease;
 }
 
 .footer-widget__contact-list li:hover .icon {
@@ -5199,10 +5192,15 @@ padding:0px;
 }
 
 .footer-widget__contact-list li .icon span {
-  position: relative;
-  display: inline-block;
-  font-size: 22px;
+  font-size: 20px;
   color: var(--ambed-base, #a47c68);
+  line-height: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.footer-widget__contact-list li:last-child .icon span {
+  font-size: 34px;
 }
 
 .footer-widget__contact-list li .text {
@@ -5221,12 +5219,12 @@ padding:0px;
 .footer-widget__contact-list li .text p {
   font-size: 16px;
   /* font-weight: 500; */
-  color: var(--ambed-white, #ffffff);
+  color:#c1b8b3;
   padding-top: 4px;
 }
 
 .footer-widget__contact-list li .text p a {
-  color: var(--ambed-white, #ffffff);
+  color: #c1b8b3;
   -webkit-transition: all 500ms ease;
   transition: all 500ms ease;
 }
